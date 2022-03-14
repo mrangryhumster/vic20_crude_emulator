@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\libs">
+      <UniqueIdentifier>{149ae1df-ccc7-4e07-90a8-518de4e827db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\libs\gl3w">
+      <UniqueIdentifier>{80a35d98-b055-4121-ae8e-86cfaa4d7835}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\libs\DearImGui">
+      <UniqueIdentifier>{0e3324b3-a7a4-47a8-a9d9-e6d1c47ef47a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Emulator">
+      <UniqueIdentifier>{bcf4903a-ec29-4ed7-9eeb-c01dc0c658dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Emulator\Memory">
+      <UniqueIdentifier>{97df27b9-b1f1-4b0c-9337-413363f8e9a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Emulator\CPU">
+      <UniqueIdentifier>{3f0ec68d-b87e-42a2-b36e-960ac7d3f992}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Emulator\MemoryDumps">
+      <UniqueIdentifier>{131b0875-8c30-4f42-a7a3-4b585c5ce711}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\libs\DearImGui\backends">
+      <UniqueIdentifier>{3ea0bdd7-e367-4611-867a-79a34c3f3f44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Emulator\Peripheral">
+      <UniqueIdentifier>{5e1fe0c0-2217-4e28-82c4-10d4eadc6e5c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MOS6502.cpp">
+      <Filter>Source Files\Emulator\CPU</Filter>
+    </ClCompile>
+    <ClCompile Include="Memory.cpp">
+      <Filter>Source Files\Emulator\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="VIC20Emulator.cpp">
+      <Filter>Source Files\Emulator</Filter>
+    </ClCompile>
+    <ClCompile Include="thirdparty\ImGUI\imgui_demo.cpp">
+      <Filter>Source Files\libs\DearImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="thirdparty\ImGUI\imgui_draw.cpp">
+      <Filter>Source Files\libs\DearImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="thirdparty\ImGUI\imgui_tables.cpp">
+      <Filter>Source Files\libs\DearImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="thirdparty\ImGUI\imgui_widgets.cpp">
+      <Filter>Source Files\libs\DearImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="thirdparty\ImGUI\imgui.cpp">
+      <Filter>Source Files\libs\DearImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="thirdparty\ImGUI\backends\imgui_impl_opengl3.cpp">
+      <Filter>Source Files\libs\DearImGui\backends</Filter>
+    </ClCompile>
+    <ClCompile Include="thirdparty\ImGUI\backends\imgui_impl_sdl.cpp">
+      <Filter>Source Files\libs\DearImGui\backends</Filter>
+    </ClCompile>
+    <ClCompile Include="thirdparty\gl3w\src\gl3w.c">
+      <Filter>Source Files\libs\gl3w</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>Source Files\Emulator\Peripheral</Filter>
+    </ClCompile>
+    <ClCompile Include="Display.cpp">
+      <Filter>Source Files\Emulator\Peripheral</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MOS6502.h">
+      <Filter>Source Files\Emulator\CPU</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory.h">
+      <Filter>Source Files\Emulator\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="Kernel.h">
+      <Filter>Source Files\Emulator\MemoryDumps</Filter>
+    </ClInclude>
+    <ClInclude Include="MOS6502Macro.h">
+      <Filter>Source Files\Emulator\CPU</Filter>
+    </ClInclude>
+    <ClInclude Include="VIC20Emulator.h">
+      <Filter>Source Files\Emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="Basic.h">
+      <Filter>Source Files\Emulator\MemoryDumps</Filter>
+    </ClInclude>
+    <ClInclude Include="Characters.h">
+      <Filter>Source Files\Emulator\MemoryDumps</Filter>
+    </ClInclude>
+    <ClInclude Include="Programm.h">
+      <Filter>Source Files\Emulator\MemoryDumps</Filter>
+    </ClInclude>
+    <ClInclude Include="Defaults.h">
+      <Filter>Source Files\Emulator\MemoryDumps</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\ImGUI\imgui.h">
+      <Filter>Source Files\libs\DearImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\ImGUI\imgui_internal.h">
+      <Filter>Source Files\libs\DearImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\ImGUI\imstb_rectpack.h">
+      <Filter>Source Files\libs\DearImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\ImGUI\imstb_textedit.h">
+      <Filter>Source Files\libs\DearImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\ImGUI\imstb_truetype.h">
+      <Filter>Source Files\libs\DearImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\ImGUI\imconfig.h">
+      <Filter>Source Files\libs\DearImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\ImGUI\backends\imgui_impl_opengl3.h">
+      <Filter>Source Files\libs\DearImGui\backends</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\ImGUI\backends\imgui_impl_sdl.h">
+      <Filter>Source Files\libs\DearImGui\backends</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\gl3w\include\GL\gl3w.h">
+      <Filter>Source Files\libs\gl3w</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Source Files\Emulator\Peripheral</Filter>
+    </ClInclude>
+    <ClInclude Include="Display.h">
+      <Filter>Source Files\Emulator\Peripheral</Filter>
+    </ClInclude>
+    <ClInclude Include="Sample.h">
+      <Filter>Source Files\Emulator\MemoryDumps</Filter>
+    </ClInclude>
+    <ClInclude Include="Snapshots.h">
+      <Filter>Source Files\Emulator\MemoryDumps</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
